@@ -10,7 +10,7 @@ function selectOption(option) {
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "¿No? :("
-        document.getElementById('no-button').innerText = 'No? :('; 
+        document.getElementById('no-button').innerText = '¿No? :('; 
         // Increase font size of "Si" button
         var siButton = document.getElementById('si-button');
         var currentFontSize = window.getComputedStyle(siButton).getPropertyValue('font-size');
