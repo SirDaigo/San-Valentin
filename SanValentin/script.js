@@ -9,8 +9,8 @@ function selectOption(option) {
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'no') {
-        // Change text on the "No" button to "¿Segura?"
-        document.getElementById('no-button').innerText = '¿Segura?'; 
+        // Change text on the "No" button to "¿No? :("
+        document.getElementById('no-button').innerText = '¿No? :('; 
         // Increase font size of "Si" button
         var siButton = document.getElementById('si-button');
         var currentFontSize = window.getComputedStyle(siButton).getPropertyValue('font-size');
